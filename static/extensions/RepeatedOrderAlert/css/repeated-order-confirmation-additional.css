@@ -1,0 +1,36 @@
+html{
+          font-size:inherit!important;
+         }  
+.repeated-order-confirmation-header {
+    font-size: 22px;
+    font-weight: 700;
+    text-align: center;
+    padding: 0 30px 0 10px;
+    margin: 0 0 15px 0px;
+    width: 100%;
+    display: inline-block;
+
+}
+.repeated-order-confirmation-body {
+    font-size: 19px;
+    line-height: 25px;
+    width: 100%;
+    display: inline-block;
+    border-bottom: solid 1px #dfd6d6;
+    padding-bottom: 20px;
+font-weight:400;
+}
+
+@media(max-width:700px) {
+    .repeated-order-confirmation-modal-content {
+        width: 24rem;
+    }
+    .repeated-order-confirmation-header {
+        line-height: 25px;
+    }
+}
+@media(max-width:390px) {
+    .repeated-order-confirmation-modal-content {
+        width: 21.4rem;
+    }
+}
